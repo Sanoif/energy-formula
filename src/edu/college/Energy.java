@@ -17,15 +17,15 @@ public class Energy {
         this.height = height;
     }
 
-    public void CountKineticEnergy() {
+    public void countKineticEnergy() {
         Ekin = (mass * Math.pow(speed, 2)) / 2;
     }
 
-    public void CountPotentialEnergy() {
+    public void countPotentialEnergy() {
         Epot = mass * G * height;
     }
 
-    public void PrintKineticEnergy() {
+    public void printKineticEnergy() {
         System.out.printf("""
                 Mass: %skg
                 Speed: %s m/s
@@ -33,7 +33,7 @@ public class Energy {
                 """, mass, speed, Ekin);
     }
 
-    public void PrintPotentialEnergy() {
+    public void printPotentialEnergy() {
         System.out.printf("""
                 Mass: %s kg
                 G: %s m/s^2

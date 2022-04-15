@@ -17,19 +17,19 @@ public class Main {
         energy.setHeight(scanner.nextDouble());
 
         System.out.println("\nKinetic energy of first object:");
-        energy.CountKineticEnergy();
-        energy.PrintKineticEnergy();
+        energy.countKineticEnergy();
+        energy.printKineticEnergy();
 
         System.out.println("Potential energy of first object:");
-        energy.CountPotentialEnergy();
-        energy.PrintPotentialEnergy();
+        energy.countPotentialEnergy();
+        energy.printPotentialEnergy();
 
         System.out.println("\nKinetic energy of second object:");
-        energy2.CountKineticEnergy();
-        energy2.PrintKineticEnergy();
+        energy2.countKineticEnergy();
+        energy2.printKineticEnergy();
 
         System.out.println("Potential energy of second object:");
-        energy2.CountPotentialEnergy();
-        energy2.PrintPotentialEnergy();
+        energy2.countPotentialEnergy();
+        energy2.printPotentialEnergy();
     }
 }
